@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: Discount Tracker
+  host: discounttracker
+  disk_quota: 1024M
+  services:
+  - Discount Tracker-AdvancedMobileAccess
+  - Discount Tracker-imfpush
+  - Discount Tracker-cloudantNoSQLDB
